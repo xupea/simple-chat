@@ -1,4 +1,4 @@
-# Simple chat based on Socket.IO -v1.3.7 (`http://socket.io/`) & Express
+# Simple chat based on Socket.IO (http://socket.io/) & Express
 
 A simple chat demo
 
@@ -10,6 +10,13 @@ $ node server.js
 ```
 
 And point your browser to `http://localhost:3000`.
+
+## node.js & npm versions
+
+```
+node.js - v5.1.1
+npm - v3.5.2
+```
 
 ## Features
 
