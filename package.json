@@ -1,0 +1,15 @@
+{
+  "name": "simpleChat",
+  "version": "0.0.1",
+  "description": "simple chat app, based on node.js realtime framework server socket.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "socket.io": "^1.3.7"
+  }
+}

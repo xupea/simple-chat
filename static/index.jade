@@ -1,0 +1,18 @@
+doctype html
+html(lang="ru")
+    head
+        title Simple Chat
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css")
+        link(rel="stylesheet", href="style.css")
+    body
+        .chat-page
+            .chat-outer
+                .chat-area
+                textarea.chat-message-input(placeholder="Type your message here\n Shift + Enter to jump onto the next line\n Enter to send your message")
+            .users-list
+
+        .login-page
+            input.nickname-input(type="text", placeholder="Type your nickname")
+
+    script(src="http://localhost:8008/socket.io/socket.io.js")
+    script(src="app.js")
