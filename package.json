@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/moislunaire/simple-chat.git"
   },
   "devDependencies": {
     "express": "^4.13.3",
