@@ -1,6 +1,6 @@
-# Simple chat based on Socket.IO (http://socket.io/) & Express
+# Simple chat 
 
-A simple chat demo
+A simple chat demo based on Socket.IO (http://socket.io/) & Express
 
 ## How to use
 
