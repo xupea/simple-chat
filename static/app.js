@@ -97,9 +97,8 @@
         // Sends a chat message
         function sendMessage() {
             var message = trim(messageInput.value);
-            message = cleanInput(message);
             // Prevent markup from being injected into the message
-            //message = cleanInput(message);
+            message = cleanInput(message);
             // if there is a non-empty message and a socket connection
             if (message) {
                 messageInput.value = '';
@@ -145,6 +144,7 @@
 
         function putChatHistory(history) {
             var historyLength = history.length;
+            //TODO the history should be inserted as whole, not by parts
             for (var i = 0; i < historyLength; i++) {
                 addChatMessage(history[i]);
             }
